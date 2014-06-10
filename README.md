@@ -66,12 +66,19 @@ Underscore.js, a swiss-army-knife for Javascript
 Look for any parsable .csv or .json files that interest you. The below are data sets for Minnesota, but feel free to find data on other states or countries!
 
 http://capitolcode.mn.gov/data/
+
 http://www.demography.state.mn.us/resource.html?Id=18667
+
 http://www.census.gov/econ/cbp/download/
+
 https://www.census.gov/popest/data/datasets.html
+
 http://www.state.mn.us/opendata/data.html
+
 http://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_144804
+
 http://www.mngeo.state.mn.us/CTU/
+
 http://www.demography.state.mn.us/projections2015-2045.htm
 
 ===========
