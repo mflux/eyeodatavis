@@ -39,7 +39,7 @@ You barely know javascript, all of this 3D graphics stuff is overwhelming to you
 You can dance your way around code, but perhaps have never touched THREE.js. You've made some visualizations, maybe even got a few D3 karate belts at home. I challenge you to find new data, preferably part of Minneapolis County level data, and make this existing visualization do new and exciting things.
 
 ### Advanced
-You are a javascript ninja and three.js is child's play. Alright let's rock. Find another SVG map, get it rendering as 3D meshes. Find another data-set, and see if you can inject this data within the framework.
+You are a javascript ninja and three.js is child's play. Alright let's rock. Find another SVG map, get it rendering as 3D meshes. Find another data-set, and see if you can inject this data within the framework. And maybe at the end you're going to make everything dance to music.
 
 ===========
 
