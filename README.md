@@ -39,7 +39,7 @@ THREE.js, a webgl/canvas rendering engine
 dat.gui, a quick and easy way to create sliders and dropdown menus
 (Reference: http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage )
 
-two.js, a 2d animation library, used here for reading SVG data
+two.js, a 2d animation library, used here for reading SVG data (Reference: http://jonobr1.github.io/two.js/#documentation)
 
 JQuery, for wrangling html and DOM cross compatibility
 (Reference: http://oscarotero.com/jquery/ )
