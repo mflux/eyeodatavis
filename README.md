@@ -10,22 +10,13 @@ What you will learn in this workshop:
 
 ## Getting Started
 
-1. git clone https://github.com/mflux/eyeodatavis.git eyeodatavis
-
-or download https://github.com/mflux/eyeodatavis/archive/master.zip
-Extract files to your desktop.
+1. git clone https://github.com/mflux/eyeodatavis.git eyeodatavis or download https://github.com/mflux/eyeodatavis/archive/master.zip then extract files to your desktop.
 
 2. Run a webserver
-
 MAC USERS:
-
 Open up a terminal (command+space and type terminal and hit enter)
-
 Navigate to the cloned (or unzipped) directory
-
 Run a SimpleHTTP server (python -m SimpleHTTPServer)
-
-
 PC USERS:
 Mongoose
 Cygwin
