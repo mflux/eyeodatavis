@@ -1,35 +1,4 @@
- _______    ______  ________   ______
-|       \  /      \|        \ /      \
-| $$$$$$$\|  $$$$$$\\$$$$$$$$|  $$$$$$\
-| $$  | $$| $$__| $$  | $$   | $$__| $$
-| $$  | $$| $$    $$  | $$   | $$    $$
-| $$  | $$| $$$$$$$$  | $$   | $$$$$$$$
-| $$__/ $$| $$  | $$  | $$   | $$  | $$
-| $$    $$| $$  | $$  | $$   | $$  | $$
- \$$$$$$$  \$$   \$$   \$$    \$$   \$$
-
- __     __  ______   ______
-|  \   |  \|      \ /      \
-| $$   | $$ \$$$$$$|  $$$$$$\
-| $$   | $$  | $$  | $$___\$$
- \$$\ /  $$  | $$   \$$    \
-  \$$\  $$   | $$   _\$$$$$$\
-   \$$ $$   _| $$_ |  \__| $$
-    \$$$   |   $$ \ \$$    $$
-     \$     \$$$$$$  \$$$$$$
-
- ________  __    __  _______   ________  ________        _____   ______
-|        \|  \  |  \|       \ |        \|        \      |     \ /      \
- \$$$$$$$$| $$  | $$| $$$$$$$\| $$$$$$$$| $$$$$$$$       \$$$$$|  $$$$$$\
-   | $$   | $$__| $$| $$__| $$| $$__    | $$__             | $$| $$___\$$
-   | $$   | $$    $$| $$    $$| $$  \   | $$  \       __   | $$ \$$    \
-   | $$   | $$$$$$$$| $$$$$$$\| $$$$$   | $$$$$      |  \  | $$ _\$$$$$$\
-   | $$   | $$  | $$| $$  | $$| $$_____ | $$_____  __| $$__| $$|  \__| $$
-   | $$   | $$  | $$| $$  | $$| $$     \| $$     \|  \\$$    $$ \$$    $$
-    \$$    \$$   \$$ \$$   \$$ \$$$$$$$$ \$$$$$$$$ \$$ \$$$$$$   \$$$$$$
-
-
-===========
+# Visualizing Data with THREE.js
 
 What you will learn in this workshop:
 
@@ -39,7 +8,7 @@ What you will learn in this workshop:
 
 ===========
 
-Getting Started
+## Getting Started
 
 1. Everyone: Download dl.dropbox.....
 Extract files to your desktop.
@@ -69,11 +38,12 @@ Dropbox
 
 ===========
 
-Libraries:
+## Libraries
+
 THREE.js, a webgl/canvas rendering engine
 (Reference: http://threejs.org/docs/ )
 
-Other libraries you might run into:
+### Other libraries you might run into:
 dat.gui, a quick and easy way to create sliders and dropdown menus
 (Reference: http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage )
 
@@ -87,7 +57,7 @@ Underscore.js, a swiss-army-knife for Javascript
 
 ===========
 
-Data Sources
+## Data Sources
 Look for any parsable .csv or .json files that interest you. The below are data sets for Minnesota, but feel free to find data on other states or countries!
 
 http://capitolcode.mn.gov/data/
@@ -101,7 +71,7 @@ http://www.demography.state.mn.us/projections2015-2045.htm
 
 ===========
 
-How to contact me:
+## How to contact me
 EMAIL:    flux.blackcat@gmail.com
 TWITTER:  @mflux
 WEB:      ghost-hack.com
