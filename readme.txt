@@ -29,15 +29,13 @@
     \$$    \$$   \$$ \$$   \$$ \$$$$$$$$ \$$$$$$$$ \$$ \$$$$$$   \$$$$$$
 
 
-===========
-
 What you will learn in this workshop:
 
 1. Learn how to find, extract, and import data.
 
 2. Use THREE.js and other tools to visualize this data.
 
-===========
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
 
 Getting Started
 
@@ -51,23 +49,22 @@ MAC USERS:
 Open up a terminal (command+space and type terminal and hit enter)
 
 Navigate to your desktop (cd ~/Desktop)
-and then into the extracted folder (cd eyeodatavis)
+and then into the extracted folder (cd EyeO\ Data\ Vis\ Workshop/)
 
 Run a SimpleHTTP server (python -m SimpleHTTPServer)
 
 
 PC USERS:
-Mongoose
-Cygwin
-Dropbox
+Mongoose??
+Cygwin??
 
-3. Open up a webrowser and navigate to localhost:8000 or whatever port your web host software is using.
+3. Open up a webrowser and navigate to localhost:8000 (MAC USERS) or whatever port your web host software is using.
 
 4. Open up a text editor and source code (start with visualization.js)
 
 5. Start hacking!
 
-===========
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
 
 Libraries:
 THREE.js, a webgl/canvas rendering engine
@@ -85,7 +82,7 @@ JQuery, for wrangling html and DOM cross compatibility
 Underscore.js, a swiss-army-knife for Javascript
 (Reference: http://underscorejs.org/ )
 
-===========
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
 
 Data Sources
 Look for any parsable .csv or .json files that interest you. The below are data sets for Minnesota, but feel free to find data on other states or countries!
@@ -99,7 +96,7 @@ http://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&Revisio
 http://www.mngeo.state.mn.us/CTU/
 http://www.demography.state.mn.us/projections2015-2045.htm
 
-===========
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
 
 How to contact me:
 EMAIL:    flux.blackcat@gmail.com

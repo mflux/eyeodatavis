@@ -1,0 +1,112 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  body{
+    background-color:#fff;
+    color: #000;
+    font-family: 'Verdana';
+    font-size: 10pt;
+    margin: 0px;
+    line-height: 10px;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+  .render{
+    position: absolute;
+  }
+  .labels{
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .textLabel{
+    position: absolute;
+    padding: 6px 6px 2px 2px;
+    display: block;
+    width: 60px;
+    text-align: center;
+    background: rgba(255,255,255,0.0);
+    font-size: 12px;
+    color: #000000;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+  }
+  #info{
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    bottom: 20px;
+    left: 8px;
+    line-height: 12px;
+  }
+  .infoLine{
+    color: #fff;
+    background-color: #000;
+    margin: 4px;
+    padding: 6px;
+    letter-spacing: 5;
+    font-family: sans-serif;
+    font-size: 8pt;
+  }
+	</style>
+</head>
+<body onload="EYEO.load()">
+
+<div id="render" class="render"></div>
+<div id="labels" class="labels"></div>
+
+<!--
+  Vendor specific includes go first.
+-->
+<script type="text/javascript" src="js/vendor/dat.gui.min.js"></script>
+<script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/vendor/threexresize.js"></script>
+<script type="text/javascript" src="js/vendor/threex.objcoord.js"></script>
+<script type="text/javascript" src="js/vendor/two.min.js"></script>
+<script type="text/javascript" src="js/vendor/Three.js"></script>
+<script type="text/javascript" src="js/vendor/stats.js"></script>
+<script type="text/javascript" src="js/vendor/OrbitControls.js"></script>
+
+<!--
+  Our Code
+-->
+<script type="text/javascript" src="js/namespace.js"></script>
+<script type="text/javascript" src="js/camera.js"></script>
+<script type="text/javascript" src="js/picker.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/resource.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/setup.js"></script>
+
+<!--
+  v v v HACK THIS v v v
+-->
+<script type="text/javascript" src="js/parser.js"></script>
+<script type="text/javascript" src="js/visualization.js"></script>
+
+<!--
+  Main will go last and load init() when body is onload.
+-->
+<script type="text/javascript" src="js/main.js"></script>
+
+<!--
+  Change this!
+-->
+<div id="info">
+  <div id="title" class="infoLine">Visualizing Minnesota Counties</div>
+  <div id="subtitle" class="infoLine">Distribution by Race</div>
+  <div id="citation" class="infoLine">Data from US Census Bureau</div>
+  <div id="author" class="infoLine">By Michael Chang</div>
+</div>
+
+</body>
+</html>
